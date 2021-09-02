@@ -1,0 +1,54 @@
+# maven ignore
+target/
+*.war
+*.zip
+*.tar
+*.tar.gz
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+*.log.*
+*/.DS_Store
+.DS_Store
+*/metastore_db
+
+/report
+
+.factorypath
+*.attach_pid*
+collector-control/out/
+**/plugin/**/**.jar
+collector-execute/output/
+
+output/
+dll/secIslandJni.dll
+collector-execute/conf/executor.config
+collector-execute/conf/private_key.pem
+trustzone-web/so/libSecIslandJni.so
+
+kabServerData
+debugData
+temp
+
+ailand_certs
+.devcontainer/
+
+node_modules/
+package-lock.json
+.vs/
